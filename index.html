@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隨機美食</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+<body>
+    <div class="container">
+        <h1>隨機美食</h1>
+        <h2>是不是每天都在煩惱要吃什麼呢~<br>讓我來告訴尼!</h2>
+        <div class="options">
+            <label for="mealType">選擇菜餚類型：</label>
+            <select id="mealType">
+                <option value="breakfast">早餐</option>
+                <option value="lunch">午餐</option>
+                <option value="dinner">晚餐</option>
+                <option value="dessert">甜點</option>
+            </select>
+        </div>
+
+        <div id="result"></div>
+
+        <button id="recommendButton">隨機推薦美食</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $("#recommendButton").addClass("animate__animated animate__bounce");
+            }, 100); // 延遲 100 毫秒
+        });
+    </script>
+</body>
+</html>

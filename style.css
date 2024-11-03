@@ -1,0 +1,113 @@
+
+
+/* 全局樣式 */
+body {
+    font-family: 'Fredoka One', sans-serif;
+    background-color: #fff5f8;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 容器樣式 */
+.container {
+    max-width: 400px;
+    background-color: #ffeef2;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 標題樣式 */
+h1 {
+    font-size: 24px;
+    color: #ff6b81;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 8px;
+    color: #1b1c25fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 選項區域樣式 */
+.options {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #ff6b81;
+    font-weight: bold;
+}
+
+/* 下拉選單樣式 */
+select {
+    background-color: #fff;
+    color: #555;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #ffbdd3;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 按鈕樣式 */
+button {
+    background-color: #ecdf7afa;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ff869b;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 推薦結果區域樣式 */
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result h2 {
+    font-size: 20px;
+    color: #ff6b81;
+    margin-bottom: 10px;
+}
+
+#result img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ffbdd3;
+}
+
+#result p a {
+    text-decoration: none;
+    color: #ff6b81;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#result p a:hover {
+    color: #ff869b;
+}
+
+/* 提示訊息樣式 */
+#result p {
+    font-size: 14px;
+    color: #777;
+}
